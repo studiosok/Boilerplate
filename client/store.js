@@ -8,4 +8,4 @@ const store = createStore(
   applyMiddleware(thunkMiddleware, createLogger())
 );
 
-export default store;
+export default {store};

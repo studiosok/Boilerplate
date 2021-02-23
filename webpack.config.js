@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
   mode: "development",
-  entry: "./client/index.js",
+  entry: ['@babel/polyfill', "./client/index.js"],
   devtool: "inline-source-map",
 
   output: {
