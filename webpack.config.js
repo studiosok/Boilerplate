@@ -3,7 +3,7 @@ const path = require("path");
 module.exports = {
   mode: "development",
   entry: ['@babel/polyfill', "./client/index.js"],
-  devtool: "inline-source-map",
+  devtool: "source-map",
 
   output: {
     filename: "bundle.js",
